@@ -1,0 +1,275 @@
+/* GLOBAL STYLES
+-------------------------------------------------- 
+the RGB color code for red is: 990000
+the RGB color code for yellow is: ffcc00;
+*/
+/* Padding below the footer and lighter body text */
+.parallax {
+            height: 25vh;
+            z-index: 10;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center
+            top: -10px; 
+}
+
+.titles {
+            width: 100%;
+            margin-left: -2%;
+            text-align: center;
+            position: fixed;
+            z-index:100;
+}
+
+p {
+            background-color: rgba(0,0,0,0);
+}
+
+.textBox {
+            background: transparent;
+            color: white;
+            z-index: 100;
+            position: absolute;
+            text-align: left;
+            font-size: 12pt;    
+}
+
+.textBox2 {
+            background-color: #000022;
+            color: white;
+            z-index: 100;
+            position: absolute;
+            text-align: left;
+            font-size: 12pt;  
+            top: 425vh;  
+}
+
+.innerTextBoxLeft{
+            width: 40%;
+            padding-top: 3%;  
+            float: left;
+            padding-left: 8%;
+}
+
+.innerTextBoxRight{
+            width: 40%;
+            float: right;
+            padding: 1%; 
+            text-align: right;
+            padding-right: 8%;
+            padding-top: 3%;
+}
+
+.photos{
+            width: 45%;
+}
+.img-circle{
+            width: 140px;
+}
+
+#counter {
+            
+            background-color:rgba(0,0,0,0); 
+            color: white; 
+            text-align: center; 
+            width:100%; 
+            margin-top: 70vh; 
+            margin-bottom: 22vh;
+            font-family: helvetica;
+          
+
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+#myCarousel {
+            position: fixed;
+            top:0%;
+}
+/* Carousel base class */
+.carousel {
+            height: 100vh;
+            z-index: 99;
+            background: transparent;
+            background: linear-gradient(to bottom, black,#161a46);
+            background: -ms-linear-gradeints(black, #161a46);
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel2 {
+            position: fixed;
+            z-index:100;
+            text-align: center;
+/*display: block;*/
+            top: 20vh;
+            font-family: helvetica;
+            color: white;
+            margin-left: 20%
+}
+
+.subheader {
+            font-size: 15pt; 
+            font-weight: bold; 
+            color: #ffffdd; 
+            font-style: italic; 
+            line-height: 1.5;
+}
+
+#subs {
+
+      line-height: 1.5;
+}
+
+/* Declare heights because of positioning of img element */
+.textBox {
+            top:100vh; 
+            font-family: Helvetica;
+}
+
+.header {
+            text-align: center; 
+            padding-bottom: 80px; 
+            width: 50%; 
+            margin: auto;
+            color: white;
+}
+
+.header p{
+            font-size: 13;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 480px) {
+/* Navbar positioning foo */
+.header {
+            text-align: center; 
+            padding-bottom: 80px; 
+            width: 90%; 
+            margin: auto;
+            color: white;
+            font-size: 12pt;
+}  
+
+.subheader {
+            font-size: 18pt; 
+            font-weight: bold; 
+            color: #ffffdd; 
+            font-style: italic;
+}
+
+.img-circle {
+            margin-left: 50%;
+            margin-right: 50%;
+}
+
+.textBox {
+            width: 100%;
+            top: 65vh;
+}
+
+.textBox2 {
+            width: 100%;
+           
+         
+}
+
+
+
+.innerTextBoxLeft {
+            text-align: center;
+}
+
+#subsub {
+            margin-left: 10%;
+            margin-right: 10%;
+}
+
+#counter {
+         
+            background-color:rgba(0,0,0,0); 
+            color: white; 
+            text-align: center; 
+            width:100%; 
+            margin-top: 19vh; 
+            font-family: helvetica;
+            /*margin-bottom: 20%;*/
+          
+}
+
+}
+/* CLOSE FIRST QUERY */
+
+@media (max-width: 900px) {
+.innerTextBoxLeft{
+            font-size: 9pt;
+            text-align: left;       
+}
+
+.innerTextBoxRight{
+            font-size: 9pt;
+}
+
+.img-circle{
+            width: 30%;
+}
+
+.subheader {
+            font-size: 8pt;
+}
+
+#counter {
+            top: 500vh;
+}
+
+}
+
+/* CLOSE SECOND QUERY */
+@media (max-width: 450px) {
+
+  .titles {
+            width: 100%;
+            margin-left: -2%;
+            text-align: center;
+            position: fixed;
+            z-index:100;
+            top: 100%;
+}
+
+.textBox{
+            width: 100%;
+}
+
+.innerTextBoxLeft{
+            font-size: 9pt;
+            text-align: center;  
+            width: 80%;
+            padding: 5% 10%;
+            float: none;
+}
+
+.innerTextBoxRight{
+            font-size: 9pt;
+            width: 80%;
+            text-align: center;
+            padding: 5% 10%;
+            float: none;
+}
+
+.photos {
+            width: 100%;
+
+            float: none;
+}
+
+
+.img-circle{
+            width: 30%;
+            margin: auto;
+}
+
+.subheader {
+            font-size: 8pt;
+}
+
+
+}
